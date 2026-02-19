@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="./style/doodle.css">
+</head>
+<body class="doodle">
+    <header>
+        <h1>Unit Converter</h1>
+    </header>
+    <nav>
+        <a href="./index.html">Length</a>
+        <a href="./index.html">Weight</a>
+        <a href="./index.html">Temperature</a>
+    </nav>
+    <section>
+        <form action="" target="_self">
+            <label for="length">Enter Length to Convert</label><br>
+            <input type="number" id="length" name="length" value="100"><br>
+
+            <label for="unitFrom">Unit to Convert From</label><br>
+            <select name="unitForm" id="unitFrom"></select><br>
+            
+            <label for="unitTo">Unit to convert to</label><br>
+            <select name="unitTo" id="unitTo"></select><br>
+
+            <input type="submit" value="Convert">
+        </form>
+    </section>
+</body>
+<script src="./index.js"></script>
+</html>
