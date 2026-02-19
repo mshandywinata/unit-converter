@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit Converter</title>
     <link rel="stylesheet" href="./style/doodle.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body class="doodle">
     <header>
@@ -15,10 +16,10 @@
         <a href="./index.html">Weight</a>
         <a href="./index.html">Temperature</a>
     </nav>
-    <section>
+    <section class="form">
         <form action="" target="_self">
-            <label for="length">Enter Length to Convert</label><br>
-            <input type="number" id="length" name="length" value="100"><br>
+            <label class="value" for="value">Enter Length to Convert</label><br>
+            <input type="number" id="value" name="value" value="0"><br>
 
             <label for="unitFrom">Unit to Convert From</label><br>
             <select name="unitForm" id="unitFrom"></select><br>
@@ -26,8 +27,14 @@
             <label for="unitTo">Unit to convert to</label><br>
             <select name="unitTo" id="unitTo"></select><br>
 
-            <input type="submit" value="Convert">
+            <input class="convert" type="submit" value="Convert">
         </form>
+    </section>
+    
+    <section class="result">
+        <h3>Result of your calculation</h3>
+        <h2 class="result"></h2>
+        <input class="reset" type="submit" value="Reset">
     </section>
 </body>
 <script src="./index.js"></script>
