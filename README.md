@@ -2,8 +2,6 @@
 
 A simple unit converter web application built with vanilla HTML, CSS, and JavaScript.
 
-![Doodle Style](./style/border.svg)
-
 ## Features
 
 - **Length Conversion** — Milimeter, Centimeter, Meter, Kilometer, Inch, Foot, Yard, Mile
@@ -27,7 +25,7 @@ A simple unit converter web application built with vanilla HTML, CSS, and JavaSc
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/unit-converter.git
+git clone https://github.com/mshandywinata/unit-converter.git
 ```
 2. Open `index.html` in your browser
 
