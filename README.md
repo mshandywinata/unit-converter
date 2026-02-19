@@ -2,6 +2,8 @@
 
 A simple unit converter web application built with vanilla HTML, CSS, and JavaScript.
 
+Project idea from [roadmap.sh](https://roadmap.sh/projects/unit-converter).
+
 ## Features
 
 - **Length Conversion** — Milimeter, Centimeter, Meter, Kilometer, Inch, Foot, Yard, Mile
